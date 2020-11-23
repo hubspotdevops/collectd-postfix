@@ -10,7 +10,7 @@ import re
 NAME = 'postfix'
 VERBOSE_LOGGING = False
 MAILLOG = '/var/log/maillog'
-CHECK_MAILQUEUE = False
+CHECK_MAILQUEUE = True
 METRICS = {
   "connection-in-open": "postfix/smtpd[[0-9]+]: connect from",
   "connection-in-close": "postfix/smtpd[[0-9]+]: disconnect from",
